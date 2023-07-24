@@ -1,0 +1,25 @@
+<!-- <div>Hello</div>
+<div>Hello</div>
+<div>Hello</div>
+<div>Hello</div>
+<div>Hello</div>
+<div>Hello</div>
+<div>Hello</div> -->
+<!-- <button (click)="navigateToRoomPage()">Create a Room</button> -->
+<!-- <button (click)="navigateToRoomFirePage()">Create a good room</button> -->
+<div class="home center-content">
+    <button  mat-raised-button color="warn" (click)="navigateToRoomProdPage()">Create a room</button>
+    <div class="join-room">
+        <mat-form-field appearance="fill" class="mat-join-room-input-style">
+            
+            <input [(ngModel)]="userInput" matInput placeholder="enter room id"/>
+        </mat-form-field>
+        <button mat-raised-button  color="primary" (click)="navigateToSpecificRoom()">Join a Room</button>
+    </div>
+    <!-- <ng-container>
+        <app-signin></app-signin>
+    </ng-container>
+     -->
+</div>
+
+

@@ -1,0 +1,18 @@
+<!-- navbar.component.html -->
+<nav>
+  <div class="logo">
+    <img src="..\assets\meowChatLogo.svg" alt="Logo">
+  </div>
+  <div class="buttons">
+    <!-- <button routerLink="/">Home</button>
+    <button *ngIf="!user" (click)="signIn()">Sign In</button>
+    <button *ngIf="user" (click)="signOut()">Sign Out</button>
+    <button routerLink='/about' (click)="about()">About</button> -->
+    <a routerLink="/" target="_blank">Home</a>
+  <a *ngIf="!user" (click)="signIn()" target="_blank">Sign In</a>
+  <a *ngIf="user" (click)="signOut()" target="_blank">Sign Out</a>
+  <a routerLink="/about" (click)="about()" target="_blank">About</a>
+
+  </div>
+  <span *ngIf="userName">Welcome, {{ userName }}</span>
+</nav>

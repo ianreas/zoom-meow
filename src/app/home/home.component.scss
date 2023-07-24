@@ -1,0 +1,49 @@
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+.content{
+    margin-top: 10%;
+}
+
+.home{
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.center-content {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  
+}
+
+.center-content > *{
+    margin-top: 50px;
+    width: 150px;
+}
+
+.join-room > button{
+  width: 150px;
+  align-self: center;
+}
+
+.join-room > input{
+     width: 143px;
+     background-color: #f2f2f2; /* Apply desired background color */
+    color: gray; /* Apply desired text color */
+    border: none; /* Remove default border */
+}
+
+.join-room {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.mat-join-room-input-style{
+    padding: 4px;
+}

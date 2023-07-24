@@ -1,0 +1,17 @@
+<p>roomfire works!</p>
+<div class="videos">
+    <span>
+        <h3>Local</h3>
+        <video #webcamVideo autoplay playsinline></video>
+    </span>
+    <span>
+        <h3>Remote</h3>
+        <video #remoteVideo autoplay playsinline></video>
+    </span>
+</div>
+<button (click)='startWebcam()'>Start the webcam</button>
+<button (click)="call()">Call</button>
+<button (click)="answer()">Answer</button>
+<div>
+    Your room id: {{roomId}}
+</div>

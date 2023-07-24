@@ -1,0 +1,29 @@
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.start-button{
+    margin-bottom: 10px;
+}
+
+.buttons{
+    margin: 10px;
+}
+
+.id-div{
+    margin: 10px;
+}
+
+.videos > div{
+    margin: 10px;
+}
+
+.videos video {
+    width: 50vw;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }

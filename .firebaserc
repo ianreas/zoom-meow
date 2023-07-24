@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "zoom-meow": {
+      "hosting": {
+        "zoom-meow-app": [
+          "zoom-meow"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "zoom-meow"
+  }
+}

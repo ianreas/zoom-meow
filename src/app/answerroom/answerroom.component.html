@@ -1,0 +1,18 @@
+<div class="videos">
+    <div>
+        <h3>Local</h3>
+        <video #webcamVideo autoplay playsinline muted></video>
+    </div>
+    <div>
+        <h3>Remote</h3>
+        <video #remoteVideo autoplay playsinline muted></video>
+    </div>
+</div>
+<div class="buttons">
+    <div class="start-button">
+        <span>1. </span><button mat-raised-button  color="primary" (click)='startWebcam()'>Start the webcam</button>
+    </div>
+    <div class="call-button">
+        <span>2. </span><button mat-raised-button  color="primary" (click)="answer()">Answer</button>
+    </div>
+</div>

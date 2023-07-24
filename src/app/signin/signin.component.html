@@ -1,0 +1,8 @@
+<div class="formGroup">
+    <button type="button" *ngIf="!user" (click)="authService.signInWithGoogle()">
+      Log in with Google
+    </button>
+    <button type="button"  *ngIf="user" (click)="authService.signOut()">
+      Sign out
+    </button>
+  </div>
